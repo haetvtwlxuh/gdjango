@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZLOE</title>
+</head>
+<body>
+<div class="wen">
+    <ul>
+        {% for body in context %}
+        <li><a href="{% url 'deta' body.id%}">{{ body.blog_title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>

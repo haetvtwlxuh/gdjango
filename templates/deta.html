@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZLOE</title>
+    <link href="/static/css/github.css" rel="stylesheet"/>
+    <script src="/static/js/run_prettify.js"></script>
+    <link href="https://cdn.rawgit.com/google/code-prettify/master/loader/skins/desert.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://picturebag.qiniudn.com/monokai.css">
+
+
+</head>
+<body>
+<hr>
+    <div class="head">
+        <h1>{{ context.blog_title }}</h1>
+        <p>{{ context.blog_time }}</p>
+    </div>
+<hr>
+    <div class="text">
+        {{ context.blog_body | safe }}
+    </div>
+</body>
+</html>
