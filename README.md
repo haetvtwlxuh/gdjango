@@ -1,5 +1,6 @@
 # django中使用markdown实现代码高亮
 
+![](https://i.imgur.com/rCI3dKy.jpg)
 
 ## 注意： 请使用django2.0+，安装依赖
  
@@ -157,4 +158,4 @@
 
 {{ context.blog_body | safe }}，safe提示这个是安全的html，允许前端执行渲染，千万不要忘记加
 
-> 项目地址：https://github.com/msterzhang/gdjango，如有错误，还请评论区指出
+> 项目地址：[https://github.com/msterzhang/gdjango](https://github.com/msterzhang/gdjango "https://github.com/msterzhang/gdjango")，如有错误，还请评论区指出
